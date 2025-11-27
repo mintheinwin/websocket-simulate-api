@@ -3,7 +3,8 @@ making it suitable for consumption by any frontend application—whether mobile 
 
 1. clone this repository
    
-2.On Terminal 
+
+2. On Terminal 
 
 npm install (Or) npm install ws
 
