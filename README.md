@@ -8,11 +8,11 @@ making it suitable for consumption by any frontend application—whether mobile 
 
 npm install (Or) npm install ws
 
-node simulate-server.js (for export simulate data via json format) (run one terminal)
+3. node simulate-server.js (for export simulate data via json format) (run one terminal)
 
-node index.js (for run project) (run on another one terminal)
+   node index.js (for run project) (run on another one terminal)
 
-3. data will save into data.json file
+4. data will save into data.json file
    
 5. You can call websocket
    
