@@ -8,7 +8,7 @@
     "start:dev": "nodemon index.js",
     "start:prod": "pm2 start index.js"
   },
-  "author": "Htet Thiri Zaw",
+  "author": "Min Thein Win",
   "license": "ISC",
   "dependencies": {
     "ws": "^8.18.0"
