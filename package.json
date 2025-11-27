@@ -1,0 +1,16 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "Subscriber to listen to MQTT and execute API query",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js",
+    "start:prod": "pm2 start index.js"
+  },
+  "author": "Htet Thiri Zaw",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
