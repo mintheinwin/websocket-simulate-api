@@ -1,21 +1,39 @@
-This project uses Node.js to simulate WebSocket API requests and generate JSON data in the required format, 
-making it suitable for consumption by any frontend application—whether mobile or web.
+This project uses Node.js to simulate WebSocket API requests and generate JSON data in the required format. 
+The simulated data can be easily consumed by any frontend application, whether it is a mobile app or a web application.
 
-1. clone this repository
+# How to Run the Project
+1. Clone the repository
+2. Open your Terminal
+
+   Install dependencies
    
-
-2. On Terminal 
-
-npm install (Or) npm install ws
-
-3. node simulate-server.js (for export simulate data via json format) (run one terminal)
-
-   node index.js (for run project) (run on another one terminal)
-
-4. data will save into data.json file
+   npm install
    
-5. You can call websocket
+   or
    
+   npm install ws
+
+4. Start the simulation server (This terminal exports the simulated data in JSON format)
+   
+   node simulate-server.js
+
+-----------------------------------------------------------------------
+
+4. Run the main project (Open another terminal)
+
+   node index.js
+   
+-----------------------------------------------------------------------
+
+5. Generated Data Output
+   The simulated data will be saved automatically into the file:
+
+   data.json
+ 
+   WebSocket Endpoint
+ 
+   You can connect using:
+ 
    ws://localhost:8080
 
 
