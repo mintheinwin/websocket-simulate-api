@@ -13,7 +13,9 @@ node simulate-server.js (for export simulate data via json format) (run one term
 node index.js (for run project) (run on another one terminal)
 
 3. data will save into data.json file
-4. You can call websocket
+   
+5. You can call websocket
+   
    ws://localhost:8080
 
 
